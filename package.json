@@ -1,0 +1,16 @@
+{
+  "name": "trabalho-less",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less": "npx lessc ./src/styles/main.less build/styles/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.3.0",
+    "less-watch-compile": "^2.1.0"
+  }
+}
